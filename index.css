@@ -38,7 +38,7 @@ h2{
 .img-circle img{
     border-radius: 50%;
     box-sizing: content-box;
-    float: right;
+    text-decoration: none;
 
 }
 .bloc a img{
@@ -47,6 +47,21 @@ h2{
 }
 .bloc2 {
     align-self: center;
+
+}
+
+.contact img{
+    text-decoration: none;
+}
+
+.contact div{
+    margin-left: 30%;
+    
+}
+
+.contact txt{
+    float: right;
+    margin-right: 30%;
 }
 
 .container {
