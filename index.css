@@ -1,7 +1,15 @@
 /*cor que talvez combine com a barra : #00688B */
 
 
-body {  background-color: #f1f1f1;}
+body {  
+    background-color: #f1f1f1;
+    width:90%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px;
+    }
+
+    
 .container .row1 a{
     color:white;
     text-decoration: none;
