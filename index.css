@@ -1,67 +1,81 @@
 /*cor que talvez combine com a barra : #00688B */
 
 
-body {	background-color: #f1f1f1;}
+body {  background-color: #f1f1f1;}
 .container .row1 a{
-	color:white;
-	text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 
 .container .row1white a{
-	color:black;
-	text-decoration: none;
+    color:black;
+    text-decoration: none;
 }
 
 .row1 a:hover{
-	color:black;
-	/*background: black;*/
+    color:black;
+    /*background: black;*/
 }
 
 .row1white {
-	margin-left: 10px;
-	margin-top: 1px;
-	margin-bottom: 1px;
-	text-align: center;
-	display: inline-block;
-	color:white;
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    display: inline-block;
+    color:white;
 }
 
 
 h2{
-	font-family: verdana;
-	font-size: 30pt;
-	text-align: center;
-	font-kerning: 10px;
-	color: black;
+    font-family: verdana;
+    font-size: 30pt;
+    text-align: center;
+    font-kerning: 10px;
+    color: black;
 }
 
 .img-circle img{
-	border-radius: 50%;
-	box-sizing: content-box;
-	float: right;
+    border-radius: 50%;
+    box-sizing: content-box;
+    text-decoration: none;
 
 }
 .bloc a img{
-	margin-left: 10px;
-	display: inline-block;
+    margin-left: 10px;
+    display: inline-block;
 }
 .bloc2 {
-	margin-left: 10px;
-	display: inline-block;
+    align-self: center;
+
+}
+
+.contact img{
+    text-decoration: none;
+}
+
+.contact div{
+    margin-left: 30%;
+    
+}
+
+.contact txt{
+    float: right;
+    margin-right: 30%;
 }
 
 .container {
-  	font-size: 13pt;
-  	background-color: #285DCB;
-  	font-family: verdana;
-  	text-align: center;
+    font-size: 13pt;
+    background-color: #285DCB;
+    font-family: verdana;
+    text-align: center;
 }
 .row1 {
-	margin-left: 10px;
-	margin-top: 1px;
-	margin-bottom: 1px;
-	text-align: center;
-	display: inline-block;
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    display: inline-block;
 }
 
 .disableMenu {
@@ -69,10 +83,10 @@ h2{
 }
 
 .col-md-1{
-	padding-right: 15px;
-	padding-left: 15px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -193,7 +207,4 @@ h2{
 /* Captions in #thumbs .thumb-content */
 #thumbs .thumb-content p {font-weight:bold; color:#BF5D9B; margin:0 0 3px;padding:0;}
 #thumbs .thumb-on .thumb-content p {color:#BB0000;}
-
-
-
 
