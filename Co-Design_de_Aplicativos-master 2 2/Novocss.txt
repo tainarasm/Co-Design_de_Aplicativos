@@ -1,0 +1,31 @@
+.dados txt{
+    margin-right:40px;
+}
+
+.ilustra{
+    padding-left:10%;
+    margin-right:5px;
+    float:left;
+}
+
+.cima{
+    padding-left:10%;
+    text-align: center;
+}
+
+.desc{
+}
+
+.desc h3{
+    text-align:center;
+    padding-right:60px;
+}
+
+.desc p{
+    margin-left: 10%;
+    margin-right: 5%
+}
+
+.tags{
+    color:#285DCB;
+}
