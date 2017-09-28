@@ -30,6 +30,9 @@ body {
     color:white;
 }
 
+h1{
+    font-family: verdana;
+  }
 
 h2{
     font-family: verdana;
@@ -429,6 +432,10 @@ z-index: 1;}*/
 
 /* NOSSA PARTE */
 
+.dados{
+    text-align: center;
+}
+
 .dados txt{
     margin-right:40px;
 }
@@ -443,7 +450,7 @@ z-index: 1;}*/
 }
 
 .cima h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
