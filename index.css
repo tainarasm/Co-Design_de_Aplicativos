@@ -13,18 +13,17 @@ body {
 }
 
 .container .row1white a{
-    color:black;
+    color:#121212;
     text-decoration: none;
 }
 
 .row1 a:hover{
-    color:black;
-    /*background: black;*/
+    color:#121212;
 }
 
 .row1white {
-    margin-left: 10px;
     margin-top: 1px;
+    margin-right: 20px;
     margin-bottom: 1px;
     text-align: center;
     display: inline-block;
@@ -75,9 +74,9 @@ h2{
     text-align: center;
 }
 .row1 {
-    margin-left: 10px;
     margin-top: 1px;
     margin-bottom: 1px;
+    margin-right: 20px; 
     text-align: center;
     display: inline-block;
 }
@@ -87,16 +86,28 @@ h2{
 }
 
 .col-md-1{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+/*#texto {
+margin-top: -130px;
+font-size: 60px;
+font-family: verdana;
+color:white;
+z-index: 1;}*/
+
 .img_desc {
+    border-radius: 5%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0.8;
 }
 
 
@@ -109,8 +120,8 @@ h2{
 
 #sliderFrame 
 {
-    width:1000px;
-    margin: 40px;
+    width:800px;
+    margin: auto;
     padding:40px;
     box-shadow: 0 0 5px #BBB;
     border:2px solid #CCC;
@@ -119,7 +130,7 @@ h2{
 }
 
 #slider, #slider .sliderInner {
-    width:690px;height:326px;/* Must be the same size as the slider images */
+    width:510px;height:326px;/* Must be the same size as the slider images */
     border-radius:0px;
 }
 
@@ -188,7 +199,7 @@ h2{
 #thumbs 
 {
     float:left;
-    margin-left:30px;
+    margin-left:10px;
     width:280px;
     font:normal 11px/13px Arial;
     border-top:1px solid #CCC;
@@ -224,20 +235,24 @@ h2{
 .col-big{
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width:20%;
+    width:100%;
+    margin: auto;
 }
 
 .hovereffect {
-    margin: 10px;
-    width: 350px;
+    margin: 6px;
+    width: 260px;
     height: 200px;
     float: left;
     overflow: hidden;
     position: relative;
-    text-align: center;
+    align-self: center;
     cursor: default;
+}
+
+.hovereffect a{
+  text-decoration: none;
+  color: white;
 }
 
 .hovereffect .overlay {
@@ -247,9 +262,10 @@ h2{
     overflow: hidden;
     top: 0;
     left: 0;
-    background-color: rgba(75,75,75,0.7);
+    background-color: rgba(48,55,65,0.6);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+
 }
 
 .hovereffect:hover .overlay {
@@ -259,6 +275,9 @@ h2{
 .hovereffect img {
     display: block;
     position: relative;
+    align-self: center;
+    margin: auto;
+
 }
 
 .hovereffect h2 {
@@ -286,7 +305,7 @@ h2{
 .hovereffect p.info {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;
+    padding: 8px 14px;
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
@@ -408,241 +427,7 @@ h2{
 
 
 
-/*DROPDOWN*/
-
-body { 
-  /*background: #ccc;*/
-  font-family: verdana;
-  font-size: 13px;
-  /*text-align: center;*/
-}
- 
-.wrap {
-  display: inline-block;
-  -webkit-box-shadow: 0 0 70px #fff;
-  -moz-box-shadow: 0 0 70px #fff;
-  box-shadow: 0 0 70px #fff;
-  margin-top: 40px;
-}
-
-/* a little "umph" */
-.decor {
-  background: linear-gradient(left, white 50%, #6EAF8D 50%);
-  background-size: 50px 25%;;
-  padding: 1px;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-}
-
-ul {
-  list-style: none;
-  position: relative;
-  text-align: left;
-}
-
-li {
-  float: left;
-}
-
-/* clear'n floats */
-ul:after {
-  clear: both;
-}
-
-ul:before,
-ul:after {
-    content: " ";
-    display: table;
-}
-
-nav {
-  position: relative;
-  background: #2B2B2B;
-  background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  text-align: center;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 1px #0E0E0E;
-  -webkit-box-shadow: 2px 2px 3px #888;
-  -moz-box-shadow: 2px 2px 3px #888;
-  box-shadow: 2px 2px 3px #888;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-/* prime */
-ul.primary li a {
-  display: block;
-  padding: 20px 30px;
-  border-right: 1px solid #3D3D3D;
-}
-
-ul.primary li:last-child a {
-  border-right: none;
-}
-
-ul.primary li a:hover {
-  
-  color: #000;
-}
-
-/* subs */
-ul.sub {
-  position: absolute;
-  z-index: 200;
-  box-shadow: 2px 2px 0 #BEBEBE;
-  width: 35%;
-  display:none;
-}
-
-ul.sub li {
-  float: none;
-  margin: 0;
-}
-
-ul.sub li a {
-  border-bottom: 1px dotted #ccc;
-  border-right: none;
-  color: #000;
-  padding: 15px 30px;
-}
-
-ul.sub li:last-child a {
-  border-bottom: none;
-}
-
-ul.sub li a:hover {
-  color: #000;
-  background: #eeeeee;
-}
-
-/* sub display*/
-ul.primary li:hover ul {
-  display: block;
-  background: #fff;
-}
-
-/* keeps the tab background white */
-ul.primary li:hover a {
-  background: #fff;
-  color: #666;
-  text-shadow: none;
-}
-
-ul.primary li:hover > a{
-  color: #000;
-} 
-
-@media only screen and (max-width: 600px) {
-  .decor {
-    padding: 3px;
-  }
-  
-  .wrap {
-    width: 100%;
-    margin-top: 0px;
-  }
-  
-   li {
-    float: none;
-  }
-  
-  ul.primary li:hover a {
-    background: none;
-    color: #8B8B8B;
-    text-shadow: 1px 1px #000;
-  }
-
-  ul.primary li:hover ul {
-    display: block;
-    background: #272727;
-    color: #fff;
-  }
-  
-  ul.sub {
-    display: block;  
-    position: static;
-    box-shadow: none;
-    width: 100%;
-  }
-  
-  ul.sub li a {
-    background: #272727;
-    border: none;
-    color: #8B8B8B;
-  }
-  
-  ul.sub li a:hover {
-    color: #ccc;
-    background: none;
-  }
-}
-
-
-
-.dropbtn {
-    background-color: #285DCB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    text-align: center;
-    display: inline-block;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #285DCB;
-    color:black;
-}
-
-
-.dados{
-      text-align: center;
-}
+/* NOSSA PARTE */
 
 .dados txt{
     margin-right:40px;
@@ -656,37 +441,91 @@ ul.primary li:hover > a{
 .cima{
     padding-left:5%;
     text-align: center;
-}
 
-.cima h1{
-    font-size: 40px;
-    text-align: center;
 }
 
 .bulk{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
-    width:1200px;
-    height:300px;
-    margin: auto;
-    padding:30px;
-    box-shadow: 0 0 5px #BBB;
-    border:1px solid #CCC;
-    background-color:#FFF;
-    align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  width:900px;
+  height:1100px;
+  margin: auto;
+  padding:30px;
+  box-shadow: 0 0 5px #BBB;
+  border:1px solid #CCC;
+  background-color:#FFF;
+  align-items: center;
 }
 
 .desc h3{
-    text-align:center;
-    padding-right:60px;
-    padding-left:60px;
-}
-
-.desc p{
-    margin-left: 40px;
+  text-align:center;
+  padding-right:60px;
+  padding-left:60px;
 }
 
 .tags{
-    color:#285DCB;
+  color:#285DCB;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    right:auto;
+    left:0px;
+
+  }
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-top: 184px;
+    position: fixed;
+}
+
+/* Facebook */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    position: fixed;
+}
+
+
+/* Github */
+.fa-github {
+    background: #000000;
+    color: white;
+    margin-top: 138px;
+    position: fixed;
+}
+
+/* Google+ */
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    margin-top: 46px;
+    position: fixed;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-top: 92px;
+    position: fixed;
 }
