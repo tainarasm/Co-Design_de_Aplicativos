@@ -640,7 +640,9 @@ ul.primary li:hover > a{
 }
 
 
-
+.dados{
+      text-align: center;
+}
 
 .dados txt{
     margin-right:40px;
@@ -653,6 +655,11 @@ ul.primary li:hover > a{
 
 .cima{
     padding-left:5%;
+    text-align: center;
+}
+
+.cima h1{
+    font-size: 40px;
     text-align: center;
 }
 
