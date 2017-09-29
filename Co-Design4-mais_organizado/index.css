@@ -407,7 +407,7 @@ z-index: 1;}*/
 .eu{
     float:left;
     margin-left:100px;
-    margin-right: 100px;
+    margin-right: 70px;
     margin-top: 50px;
     margin-bottom: 200px;
 }
@@ -416,7 +416,7 @@ z-index: 1;}*/
 }
 .main{
   width: 82%;
-  float: right; 
+  float: right;
 }
 .progressBar{
   position: relative;
@@ -599,18 +599,18 @@ z-index: 1;}*/
     position: fixed;
 }
 
-h1{
+h10{
   font-family: 'Droid serif', serif;
   font-size: 30px;
   text-align: left; 
   color: #946E07; 
   font-weight: 400; 
   font-style: italic; 
-  line-height: 44px; 
-  margin: 0 0 4px;
+  line-height: 60px; 
+  margin: 0 0 0px;
 }
 
-p{
+.corpo{
   color: #5f6c7a; 
   font-size: 20px; 
   font-family: "Libre Baskerville", serif; 
