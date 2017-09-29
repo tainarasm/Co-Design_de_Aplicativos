@@ -409,18 +409,23 @@ z-index: 1;}*/
     margin-left:100px;
     margin-right: 70px;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 600px;
+    border-radius: 50%;
 }
 .aboutme{
     margin-top: 49px;
 }
+
+
 .main{
-  width: 82%;
+  width: 80em;
+  position: absolute;
+  margin-top: 40px;
   float: right;
 }
 .progressBar{
   position: relative;
-  width: 80%;
+  width: 67%;
   height: 40px;
   background: #eeeeee;
   margin-bottom: 20px;
@@ -474,19 +479,19 @@ z-index: 1;}*/
   background: white;
 }
 .html{
-  background: #66023C;
+  background: #2A3855;
 }
 .css{
-  background: #66023C;
+  background: #2A3855;
 }
 .js{
-  background: #66023C;
+  background: #2A3855;
 }
 .php{
-  background: #66023C;
+  background: #2A3855;
 }
 .ajax{
-  background: #66023C;
+  background: #2A3855;
 }
 @media (max-width: 720px) {
   .main{
