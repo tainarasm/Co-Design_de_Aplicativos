@@ -4,8 +4,8 @@ body {
     margin:auto;
     min-width:600px;
     max-width:2000px;
-    text-align: justify;
-    }
+/*    text-align: justify;
+*/    }
 
     
 .container .row1 a{
@@ -38,7 +38,7 @@ body {
 }
 
 p{
-  font-size: 10px; 
+  font-size: 12px; 
   text-align: center; 
   font-family: verdana;
 }
