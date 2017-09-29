@@ -37,6 +37,12 @@ body {
     color:white;
 }
 
+p{
+  font-size: 10px; 
+  text-align: center; 
+  font-family: verdana;
+}
+
 
 h2{
     font-family: verdana;
@@ -469,7 +475,7 @@ z-index: 1;}*/
     overflow: hidden;
     top: 0;
     left: 0;
-    background-color: rgba(48,55,65,0.6);
+    background-color: rgba(48,55,65,0.2);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 
@@ -512,6 +518,8 @@ z-index: 1;}*/
 .hovereffect p.info {
     display: inline-block;
     text-decoration: none;
+    font-size: 19px;
+    font-family: verdana;
     padding: 8px 14px;
     color: #fff;
     border: 1px solid #fff;
@@ -524,7 +532,6 @@ z-index: 1;}*/
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     font-weight: normal;
-    margin: 7px;
 }
 
 .hovereffect:hover p.info {
@@ -543,12 +550,33 @@ z-index: 1;}*/
 
 /*PARA A PÁGINA ABOUT ME*/
 
+
+.aboutme h1{
+  font-family: 'Droid serif', serif;
+  font-size: 30px;
+  text-align: left; 
+  color: #946E07; 
+  font-weight: 400; 
+  font-style: italic; 
+  line-height: 44px; 
+/*  margin: 0 0 4px;
+*/}
+
+.aboutme p{
+  color: #5f6c7a; 
+  font-size: 20px; 
+  font-family: "Libre Baskerville", serif; 
+  line-height: 38px; 
+  text-shadow: 0 1px 1px #fff; 
+  padding-top: 1px;
+}
+
+
 .eu{
     float:left;
-    margin-left:100px;
-    margin-right: 100px;
+    /*margin-left:100px;*/
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .aboutme{
     margin-top: 49px;
@@ -649,6 +677,8 @@ z-index: 1;}*/
 .cima{
     padding-left:5%;
     text-align: center;
+    margin: auto; 
+    font-family: verdana;
 
 }
 
@@ -736,24 +766,4 @@ z-index: 1;}*/
     color: white;
     margin-top: 92px;
     position: fixed;
-}
-
-h1{
-  font-family: 'Droid serif', serif;
-  font-size: 30px;
-  text-align: left; 
-  color: #946E07; 
-  font-weight: 400; 
-  font-style: italic; 
-  line-height: 44px; 
-  margin: 0 0 4px;
-}
-
-p{
-  color: #5f6c7a; 
-  font-size: 20px; 
-  font-family: "Libre Baskerville", serif; 
-  line-height: 38px; 
-  text-shadow: 0 1px 1px #fff; 
-  padding-top: 1px;
 }
