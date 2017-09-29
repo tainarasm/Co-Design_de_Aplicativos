@@ -38,11 +38,18 @@ body {
 }
 
 p{
-  font-size: 12px; 
+  font-size: 16px; 
   text-align: center; 
   font-family: verdana;
 }
 
+h3{
+    font-family: verdana;
+    font-size: 18pt;
+    text-align: center;
+    font-kerning: 10px;
+    color: black;
+}
 
 h2{
     font-family: verdana;
@@ -550,44 +557,35 @@ z-index: 1;}*/
 
 /*PARA A PÁGINA ABOUT ME*/
 
-
-.aboutme h1{
-  font-family: 'Droid serif', serif;
-  font-size: 30px;
-  text-align: left; 
-  color: #946E07; 
-  font-weight: 400; 
-  font-style: italic; 
-  line-height: 44px; 
-/*  margin: 0 0 4px;
-*/}
-
-.aboutme p{
-  color: #5f6c7a; 
-  font-size: 20px; 
-  font-family: "Libre Baskerville", serif; 
-  line-height: 38px; 
-  text-shadow: 0 1px 1px #fff; 
-  padding-top: 1px;
+p.citacao{
+  font: 400 28px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3855;
+  text-align: center;
+  margin-top: 1px;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
-
 
 .eu{
     float:left;
-    /*margin-left:100px;*/
+    margin-left:100px;
+    margin-right: 70px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 .aboutme{
     margin-top: 49px;
 }
+
+
 .main{
-  width: 82%;
-  float: right; 
+  width: 80em;
+  position: absolute;
+  margin-top: 40px;
+  float: right;
 }
 .progressBar{
   position: relative;
-  width: 80%;
+  width: 67%;
   height: 40px;
   background: #eeeeee;
   margin-bottom: 20px;
@@ -641,19 +639,19 @@ z-index: 1;}*/
   background: white;
 }
 .html{
-  background: #66023C;
+  background: #2A3855;
 }
 .css{
-  background: #66023C;
+  background: #2A3855;
 }
 .js{
-  background: #66023C;
+  background: #2A3855;
 }
 .php{
-  background: #66023C;
+  background: #2A3855;
 }
 .ajax{
-  background: #66023C;
+  background: #2A3855;
 }
 @media (max-width: 720px) {
   .main{
@@ -677,8 +675,6 @@ z-index: 1;}*/
 .cima{
     padding-left:5%;
     text-align: center;
-    margin: auto; 
-    font-family: verdana;
 
 }
 
@@ -766,4 +762,24 @@ z-index: 1;}*/
     color: white;
     margin-top: 92px;
     position: fixed;
+}
+
+h10{
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  text-align: left; 
+  color: #946E07; 
+  font-weight: 400; 
+  font-style: italic;
+  line-height: 60px; 
+  margin: 0 0 0px;
+}
+
+.corpo{
+  color: #5f6c7a; 
+  font-size: 20px; 
+  font-family: "Libre Baskerville", serif; 
+  line-height: 38px; 
+  text-shadow: 0 1px 1px #fff; 
+  padding-top: 1px;
 }
