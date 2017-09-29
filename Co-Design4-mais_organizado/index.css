@@ -93,6 +93,71 @@ h2{
     padding-bottom: 10px;
 }
 
+.container2 {
+  height: 60px;
+  margin: 0 auto;
+}
+
+.header{
+  background: #285DCB;
+}
+
+.header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav {
+  float: right;
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-shadow: 0.8px 0.8px #383838;
+
+}
+
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
 /*#texto {
 margin-top: -130px;
 font-size: 60px;
