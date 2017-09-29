@@ -404,13 +404,20 @@ z-index: 1;}*/
 
 /*PARA A PÁGINA ABOUT ME*/
 
+p.citacao{
+  font: 400 28px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3855;
+  text-align: center;
+  margin-top: 1px;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
 .eu{
     float:left;
     margin-left:100px;
     margin-right: 70px;
     margin-top: 50px;
-    margin-bottom: 600px;
-    border-radius: 50%;
+    margin-bottom: 300px;
 }
 .aboutme{
     margin-top: 49px;
@@ -605,12 +612,12 @@ z-index: 1;}*/
 }
 
 h10{
-  font-family: 'Droid serif', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 30px;
   text-align: left; 
   color: #946E07; 
   font-weight: 400; 
-  font-style: italic; 
+  font-style: italic;
   line-height: 60px; 
   margin: 0 0 0px;
 }
