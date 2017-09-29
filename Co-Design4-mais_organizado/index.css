@@ -7,6 +7,9 @@ body {
     text-align: justify;
     }
 
+hr{
+  margin: -1px;
+}
     
 .container .row1 a{
     color:white;
