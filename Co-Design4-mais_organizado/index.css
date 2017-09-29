@@ -407,20 +407,25 @@ z-index: 1;}*/
 .eu{
     float:left;
     margin-left:100px;
-    margin-right: 100px;
+    margin-right: 70px;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 600px;
+    border-radius: 50%;
 }
 .aboutme{
     margin-top: 49px;
 }
+
+
 .main{
-  width: 82%;
-  float: right; 
+  width: 80em;
+  position: absolute;
+  margin-top: 40px;
+  float: right;
 }
 .progressBar{
   position: relative;
-  width: 80%;
+  width: 67%;
   height: 40px;
   background: #eeeeee;
   margin-bottom: 20px;
@@ -474,19 +479,19 @@ z-index: 1;}*/
   background: white;
 }
 .html{
-  background: #66023C;
+  background: #2A3855;
 }
 .css{
-  background: #66023C;
+  background: #2A3855;
 }
 .js{
-  background: #66023C;
+  background: #2A3855;
 }
 .php{
-  background: #66023C;
+  background: #2A3855;
 }
 .ajax{
-  background: #66023C;
+  background: #2A3855;
 }
 @media (max-width: 720px) {
   .main{
@@ -599,18 +604,18 @@ z-index: 1;}*/
     position: fixed;
 }
 
-h1{
+h10{
   font-family: 'Droid serif', serif;
   font-size: 30px;
   text-align: left; 
   color: #946E07; 
   font-weight: 400; 
   font-style: italic; 
-  line-height: 44px; 
-  margin: 0 0 4px;
+  line-height: 60px; 
+  margin: 0 0 0px;
 }
 
-p{
+.corpo{
   color: #5f6c7a; 
   font-size: 20px; 
   font-family: "Libre Baskerville", serif; 
